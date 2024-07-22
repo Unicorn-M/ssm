@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.xq.parent</groupId>
-        <artifactId>xq_ssm_project</artifactId>
+        <groupId>com.mmm.parent</groupId>
+        <artifactId>ssm</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>ssm_web</artifactId>
@@ -19,19 +19,16 @@
         </dependency>
 
         <dependency>
-            <groupId>com.xq.parent</groupId>
-            <artifactId>ssm_dao</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.xq.parent</groupId>
+            <groupId>com.mmm.parent</groupId>
             <artifactId>ssm_service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-
-
+        <dependency>
+            <groupId>com.mmm.parent</groupId>
+            <artifactId>ssm_dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>ssm_web</finalName>

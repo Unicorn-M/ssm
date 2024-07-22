@@ -1,9 +1,10 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <html>
 <head>
-    <title>index</title>
+    <title>首页</title>
 </head>
 <body>
-<h4>hello</h4>
+<a href="${pageContext.request.contextPath}/test.do">[测试]</a>
+
 </body>
 </html>
